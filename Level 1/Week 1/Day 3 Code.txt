@@ -1,0 +1,51 @@
+Problem 1 ---> 
+
+# include <iostream>
+using namespace std;
+int main(){
+    int a,b;
+    char sign;
+    cin>>a>>sign>>b;
+    if(sign=='<')
+    {
+        if(a<b)
+        {
+            cout<<"Right";
+        }
+        else{
+            cout<<"Wrong";
+        }
+    }
+    else if(sign=='=')
+    {
+        if(a==b)
+        {
+            cout<<"Right";
+        }
+        else{
+            cout<<"Wrong";
+        }
+    }
+    else{
+        if(a>b)
+        {
+            cout<<"Right";
+        }
+        else{
+            cout<<"Wrong";
+        }   
+    }
+}
+
+
+
+Problem ---> 2
+
+# include <iostream>
+using namespace std;
+int main(){
+    int a,b,c;
+    cin>>a>>b>>c;
+    cout<<min(a,min(b,c))<<' '<<max(a,max(b,c));
+    
+}
