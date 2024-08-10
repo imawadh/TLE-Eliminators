@@ -1,0 +1,39 @@
+Escape Sequence 
+Data Types 
+		int 
+		long
+		char === 'a', '1', ' ', '/n', '//'
+		float === 4 decimal places precision(accurate)
+		double === 
+		float and double are precision dependent 
+		string
+		
+
+		Unary Operator
+			+
+			-
+			++
+			--
+
+
+C++ offer floor division / floor value or box value.
+		
+Why # include <iostream> ?
+
+What are insertion and extraction operator ?
+
+What is difference between endl and \n?
+
+PEMDAS / BODMAS is followed by c++.
+
+Use of 2 semicolon at the end of cout statement;
+
+How to declare a charcater equal to ! ?
+
+int c==5; vs int d = c==5;
+
+
+
+
+
+
