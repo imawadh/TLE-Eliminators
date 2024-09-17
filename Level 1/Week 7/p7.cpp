@@ -13,11 +13,7 @@ int main(){
             cin>>v[i];
             sum+=v[i];
         }
-        if(sum%2==0)
-        {
-            cout<<0<<'\n';
-            continue;
-        }
+        
         
         
     }

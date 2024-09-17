@@ -1,17 +1,14 @@
 # include <bits/stdc++.h>
 using namespace std;
-// TLE 
+// solved 
 bool check(long long num)
 {
     if(num&1) return true;
-    int x = sqrt(num)+1;
-    for(int i = 3; i<=x; i+=2)
+    while(num%2==0)
     {
-        if(num%i==0)
-        {
-            return true;
-        }
+        num/=2;
     }
+    if(num&1 && num!=1) return true;
     return false;
 }
 int main(){
