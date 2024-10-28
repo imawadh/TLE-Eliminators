@@ -60,6 +60,7 @@
     "iostream": "cpp",
     "cmath": "cpp",
     "complex": "cpp",
-    "*.tcc": "cpp"
+    "*.tcc": "cpp",
+    "iosfwd": "cpp"
   }
 }
